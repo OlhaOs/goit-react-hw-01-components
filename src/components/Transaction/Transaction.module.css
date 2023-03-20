@@ -1,0 +1,40 @@
+.transactionSection {
+  background-color: var(--сolor-section-even-background);
+  padding: 30px 0;
+}
+.transactionTable {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 100%;
+  max-width: 700px;
+  border: 1px solid var(--color-border);
+  box-shadow: 1px 1px 10px var(--color-border);
+  border-radius: 3px;
+  color: var(--color-secondary-text);
+  text-align: center;
+}
+td,
+th {
+  padding: 10px 0;
+  width: calc(100% / 3);
+}
+
+thead {
+  background-color: #54c7ec;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+}
+tbody tr:nth-child(even) {
+  background-color: lightgray;
+}
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+tbody tr td:first-child {
+  text-transform: capitalize;
+  text-indent: calc(100% / 3);
+  text-align: start;
+}
