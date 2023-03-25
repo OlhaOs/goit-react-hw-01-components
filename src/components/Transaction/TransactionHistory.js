@@ -7,7 +7,7 @@ export default function TransactionHistory({ items }) {
       <table className={css.transactionTable}>
         <thead>
           <tr>
-            <th>Type</th>
+            <th>Type</th> 
             <th>Amount</th>
             <th>Currency</th>
           </tr>
